@@ -81,6 +81,11 @@ test:
 #
 production:
   <<: *default
-  database: app_scraping_twiter_production
-  username: app_scraping_twiter
-  password: <%= ENV["APP_SCRAPING_TWITER_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
+
+  #production:
+ #<<: *default
+  #database: app_scraping_twiter_production
+  #username: app_scraping_twiter
+  #password: <%= ENV["APP_SCRAPING_TWITER_DATABASE_PASSWORD"] %>
