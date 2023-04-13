@@ -1,7 +1,7 @@
-databases:
-  - name: app_scraping_twiter
-    databaseName: app_scraping_twiter
-    user: app_scraping_twiter
+#databases:
+#  - name: app_scraping_twiter
+#    databaseName: app_scraping_twiter
+#    user: app_scraping_twiter
 
 services:
   - type: web
